@@ -1,0 +1,80 @@
+* {
+    background: #840000;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+.balsamiq-sans-regular {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Центрує заголовок у вільному просторі */
+    gap: 20px; /* Створює обов'язковий безпечний відступ від логотипа */
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+header img {
+    max-height: 80px; /* Захищає логотип від надмірного збільшення */
+}
+
+h1 {
+    max-width: 80%; /* Обмежує ширину, щоб текст мав простір для маневру */
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+#cat-programer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+#cat-programer img {
+    width: 600px; /* Вкажіть бажану ширину (наприклад, 250px) */
+    height: 600px; /* Вкажіть таку ж висоту для квадратних картинок */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+button {
+    background: whitesmoke;
+    width: auto;
+    cursor: pointer;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 600px;
+    padding: 20px 10px;
+}
+
+h2 {
+    text-align: center;
+    align-items: center;
+    padding: 20px 0;
+    color: whitesmoke;
+}
+
+@media (max-width: 720px) {
+    #cat-programer img {
+        width: 400px; /* Вкажіть бажану ширину (наприклад, 250px) */
+        height: 400px; /* Вкажіть таку ж висоту для квадратних картинок */
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    button {
+        background: #ffffcc;
+        width: auto;
+        cursor: pointer;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        width: 400px;
+        padding: 20px 10px;
+    }
+}
